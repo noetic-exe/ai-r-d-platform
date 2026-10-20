@@ -1,0 +1,1 @@
+ALTER TABLE worker_slot ADD COLUMN heartbeat BIGINT NOT NULL DEFAULT 0;
